@@ -1,0 +1,14 @@
+INSERT INTO api_imagemetadata VALUES(1,'A. Allan',1,2);
+INSERT INTO api_imagemetadata VALUES(2,'Arabidopsis Thaliana',1,3);
+INSERT INTO api_imagemetadata VALUES(3,'Root',1,4);
+INSERT INTO api_imagemetadata VALUES(4,'8',1,5);
+INSERT INTO api_imagemetadata VALUES(5,'100, 100, 50',1,6);
+INSERT INTO api_imagemetadata VALUES(6,'B. Beijaflor',2,2);
+INSERT INTO api_imagemetadata VALUES(7,'C. Elegans',2,3);
+INSERT INTO api_imagemetadata VALUES(8,'16',2,5);
+INSERT INTO api_imagemetadata VALUES(9,'200, 200, 30',2,6);
+INSERT INTO api_imagemetadata VALUES(10,'C. Cajal',3,2);
+INSERT INTO api_imagemetadata VALUES(11,'Drosophilia Melanogaster',3,3);
+INSERT INTO api_imagemetadata VALUES(12,'Wing',3,4);
+INSERT INTO api_imagemetadata VALUES(13,'8',3,5);
+INSERT INTO api_imagemetadata VALUES(14,'500, 200, 50, 3',3,6);

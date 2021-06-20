@@ -12,12 +12,12 @@ urlpatterns = [
         name="get_accession_ids",
     ),
     url(
-        r"^v1/(?P<id>.+)/metadata/$",
+        r"^v1/accessions/(?P<id>.+)/metadata/$",
         views.get_metadata,
         name="get_metadata",
     ),
     url(
-        r"^v1/(?P<id>.+)/imagesize/$",
+        r"^v1/accessions/(?P<id>.+)/imagesize/$",
         views.get_imagesize,
         name="get_imagesize",
     ),

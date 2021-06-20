@@ -43,7 +43,7 @@ class GetAllDataTest(TestCase):
         ]
 
     def _get_expected_metadata_results(self):
-       """Return results expected for '/<accession_id>/metadata' api call"""        
+       """Return results expected for '/accessions/<accession_id>/metadata' api call"""        
        return {
             "accession_id": "BIA-00",
             "author": "test author",
@@ -54,7 +54,7 @@ class GetAllDataTest(TestCase):
         }
 
     def _get_expected_imagesize_results(self):
-        """Return results expected for '/<accession_id>/imagesize' api call"""
+        """Return results expected for '/accessions/<accession_id>/imagesize' api call"""
         return {
             "accession_id": "BIA-00",
             "imagesize": 11520,
